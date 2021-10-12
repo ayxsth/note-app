@@ -23,7 +23,7 @@ Note app CLI is a note taking application based on Command line. This app is cre
 ## Running the project
 - Clone the repository.
     
-    ``git clone https://github.com/ayxsth/NoteAppCLIate.git``
+    ``git clone https://github.com/ayxsth/note-app.git``
 - Open in Visual Studio Code *(optional)*
 - Run the Terminal from inside the folder.
 - Install all the required npm

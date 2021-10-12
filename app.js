@@ -61,25 +61,4 @@ yargs.command({
     }
 });
 
-yargs.command({
-    command: 'hello',
-    describe: 'Add a new note',
-    builder: {
-        title: {
-            describe: 'Note title',
-            demandOption: true,
-            type: 'string'
-        },
-        body: {
-            describe: 'Note body',
-            demandOption: true,
-            type: 'string'
-        }
-    },
-    handler: function () {
-        console.log('Title: ' + argv.title)
-        console.log('Body: ' + argv.body)
-    }
-})
-
 yargs.parse();
